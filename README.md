@@ -5,6 +5,7 @@ Assuming source code is being displayed on the top-right panel, this extension w
  - removes logo
  - merges top two rows of menus into one
  - assumes rstudio-server is on port 8787
+ - I have only tested on RStudio Preview version 1.2.1181
  
 ### Installation and usage: 
  - download and extract zip 
