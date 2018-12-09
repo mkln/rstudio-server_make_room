@@ -1,2 +1,20 @@
-# rstudio-server_make_room
-Chrome extension to make more room in the RStudio server web interface
+# Make Room for rstudio-server web interface
+Assuming source code is being displayed on the top-right panel, this extension will maximize the vertical space for source code.
+
+ - removes bottom right panel
+ - removes logo
+ - merges top two rows of menus into one
+ - assumes rstudio-server is on port 8787
+ 
+### Installation and usage: 
+ - download and extract zip 
+ - in Chrome, navigate to chrome://extensions
+ - select *Load unpacked*, then choose the extracted folder
+ - navigate to rstudio-server page and login
+ - **drag center panels separator** (this is what activates the script)
+
+### Before:
+<a href="https://github.com/mkln/rstudio-server_make_room/raw/master/before.png"><img src="https://github.com/mkln/rstudio-server_make_room/raw/master/before.png" align="center" height="500"></a> <br>
+
+### After:
+<a href="https://github.com/mkln/rstudio-server_make_room/raw/master/after.png"><img src="https://github.com/mkln/rstudio-server_make_room/raw/master/after.png" align="center" height="500"></a>
